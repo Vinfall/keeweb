@@ -1,0 +1,6 @@
+{
+    "buildCommand": "grunt --force",
+    "installCommand": "npm install && npm ci",
+    "outputDirectory": "dist",
+    "devCommand": "npm run dev"
+}
