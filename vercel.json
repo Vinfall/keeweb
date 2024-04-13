@@ -1,6 +1,6 @@
 {
-    "buildCommand": "grunt --force",
-    "installCommand": "npm install && npm ci",
+    "buildCommand": "npm run set-legacy && grunt --force",
+    "installCommand": "npm run set-legacy && npm install && npm ci",
     "outputDirectory": "dist",
     "devCommand": "npm run dev"
 }
