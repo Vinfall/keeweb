@@ -1,6 +1,6 @@
 {
-    "buildCommand": "npm run set-legacy && grunt --force",
-    "installCommand": "npm run set-legacy && npm install && npm ci",
+    "buildCommand": "set NODE_OPTIONS=--openssl-legacy-provider && grunt --beta --force",
+    "installCommand": "set NODE_OPTIONS=--openssl-legacy-provider && npm install && npm ci",
     "outputDirectory": "dist",
-    "devCommand": "npm run dev"
+    "devCommand": "npm run dev-legacy"
 }
